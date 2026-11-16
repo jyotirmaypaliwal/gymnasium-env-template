@@ -22,8 +22,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          # latest stable version of Python
-          python-version: "3.x"
+          python-version: "3.15"
 
       - name: Display Python version
         run: python -c "import sys; print(sys.version)"
